@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fifth Chukker — Africa's Premier Polo, Equestrian & Luxury Lifestyle Destination</title>
+<meta name="description" content="Fifth Chukker Polo & Country Club — a world-class luxury polo, equestrian, hospitality and lifestyle destination within Kangimi Resort, Kaduna, Nigeria. Where the world meets Africa." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="preload" as="image" href="assets/hero-polo.jpg" />
+<link rel="icon" href="assets/logo.png" />
+<link rel="stylesheet" href="styles.css" />
+<script src="partials.js" defer></script>
+</head>
+<body data-page="home">
+
+<header id="site-header"></header>
+
+<!-- ============ HERO (video) ============ -->
+<section class="hero" id="home">
+  <div class="hero__media">
+    <img src="assets/hero-polo.jpg" alt="" class="hero__poster" />
+    <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="assets/hero-polo.jpg">
+      <source src="assets/hero-video.mp4" type="video/mp4" />
+    </video>
+    <div class="hero__veil"></div>
+  </div>
+
+  <div class="hero__content">
+    <p class="eyebrow eyebrow--light">Kangimi Resort · Kaduna · Nigeria</p>
+    <h1 class="hero__title">
+      <span class="line"><span class="word" style="animation-delay:.05s">Where</span> <span class="word" style="animation-delay:.15s">The</span> <span class="word" style="animation-delay:.25s">World</span></span>
+      <span class="line"><em><span class="word" style="animation-delay:.4s">Meets</span> <span class="word" style="animation-delay:.5s">Africa</span></em></span>
+    </h1>
+    <p class="hero__sub">Africa's leading luxury polo, equestrian, hospitality and lifestyle
+      destination — set on the banks of Kangimi Dam.</p>
+    <div class="hero__actions">
+      <a href="stay.html" class="btn btn--brand">Book Your Stay</a>
+      <a href="#explore" class="btn btn--ghost">Discover Experiences</a>
+    </div>
+  </div>
+
+  <a href="#booking" class="hero__scroll" aria-label="Scroll"><span>Scroll</span><i></i></a>
+</section>
+
+<!-- ============ BOOKING BAR ============ -->
+<section class="booking" id="booking">
+  <form class="booking__bar" data-fake>
+    <div class="booking__field"><label>Arrival</label><input type="date" /></div>
+    <div class="booking__field"><label>Departure</label><input type="date" /></div>
+    <div class="booking__field"><label>Guests</label>
+      <select><option>1 Guest</option><option selected>2 Guests</option><option>3 Guests</option><option>4 Guests</option><option>5+ Guests</option></select></div>
+    <div class="booking__field"><label>Accommodation</label>
+      <select><option>Luxury Villa</option><option>Pony Hut</option><option>Family Villa</option><option>Extended Stay</option></select></div>
+    <div class="booking__field"><label>Experience</label>
+      <select><option>Polo Day</option><option>Riding Academy</option><option>Horse Trek</option><option>Quad Safari</option><option>Wellness</option></select></div>
+    <button class="btn btn--brand booking__submit" type="submit">Check Availability</button>
+  </form>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Polo</span><span>Equestrian Excellence</span><span>Luxury Villas</span><span>Fine Dining</span>
+    <span>Weddings</span><span>Adventure</span><span>Social Impact</span><span>African Heritage</span>
+    <span>Polo</span><span>Equestrian Excellence</span><span>Luxury Villas</span><span>Fine Dining</span>
+    <span>Weddings</span><span>Adventure</span><span>Social Impact</span><span>African Heritage</span>
+  </div>
+</div>
+
+<!-- ============ STORY ============ -->
+<section class="section" id="story">
+  <div class="split">
+    <div class="split__text reveal">
+      <p class="eyebrow">Our Story · Est. 2001</p>
+      <h2 class="h-display">A polo legacy carved<br />into the African plains.</h2>
+      <p>Set within a 3,000-hectare resort on the banks of Kangimi Dam, Fifth Chukker has grown
+        from a single field into West Africa's premier polo destination — where the Sport of Kings,
+        world-class hospitality and authentic African warmth meet.</p>
+      <p>From the Access Bank UNICEF Charity Shield to the African Patrons Cup, our fields have
+        hosted international patrons, royalty and champions — all while championing causes that
+        change lives across the continent.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat__num" data-count="3000">0</span><span class="stat__label">Hectare Estate</span></div>
+        <div class="stat"><span class="stat__num" data-count="56">0</span><span class="stat__label">Luxury Stays</span></div>
+        <div class="stat"><span class="stat__num" data-count="300">0</span><span class="stat__label">Stables</span></div>
+        <div class="stat"><span class="stat__num" data-count="3">0</span><span class="stat__label">Polo Fields</span></div>
+      </div>
+      <div style="margin-top:2rem"><a href="about.html" class="btn btn--dark">Read Our Story <span class="btn-arrow">→</span></a></div>
+    </div>
+    <div class="split__media reveal">
+      <img src="assets/statue-1.jpg" alt="The iconic Fifth Chukker horse sculpture" class="tilt" />
+      <div class="badge">
+        <img src="assets/logo.png" alt="" />
+        <span class="badge-text">The Sport of Kings<br />in the Heart of Africa</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPLORE MOSAIC ============ -->
+<section class="section section--cream" id="explore">
+  <div class="section__head reveal">
+    <p class="eyebrow eyebrow--center">Explore Fifth Chukker</p>
+    <h2 class="h-display center">Eight worlds, one estate.</h2>
+  </div>
+  <div class="mosaic wrap">
+    <a href="stay.html" class="ecard reveal" style="background-image:url('assets/huts-dusk.jpg')"><span class="ecard__index">01</span><span class="ecard__go">↗</span><span class="ecard__title">Stay</span></a>
+    <a href="polo.html" class="ecard ecard--tall reveal" style="background-image:url('assets/polo-action-1.jpg')"><span class="ecard__index">02</span><span class="ecard__go">↗</span><span class="ecard__title">Polo</span></a>
+    <a href="equestrian.html" class="ecard reveal" style="background-image:url('assets/statue-2.jpg')"><span class="ecard__index">03</span><span class="ecard__go">↗</span><span class="ecard__title">Equestrian</span></a>
+    <a href="dining.html" class="ecard reveal" style="background-image:url('assets/pool.jpg')"><span class="ecard__index">04</span><span class="ecard__go">↗</span><span class="ecard__title">Dining</span></a>
+    <a href="events.html" class="ecard ecard--wide reveal" style="background-image:url('assets/event-ceremony.jpg')"><span class="ecard__index">05</span><span class="ecard__go">↗</span><span class="ecard__title">Events &amp; Weddings</span></a>
+    <a href="equestrian.html" class="ecard reveal" style="background-image:url('assets/grounds-garden.jpg')"><span class="ecard__index">06</span><span class="ecard__go">↗</span><span class="ecard__title">Adventure</span></a>
+    <a href="impact.html" class="ecard reveal" style="background-image:url('assets/unicef-shield.jpg')"><span class="ecard__index">07</span><span class="ecard__go">↗</span><span class="ecard__title">Social Impact</span></a>
+    <a href="magazine.html" class="ecard reveal" style="background-image:url('assets/polo-lady.jpg')"><span class="ecard__index">08</span><span class="ecard__go">↗</span><span class="ecard__title">Magazine</span></a>
+  </div>
+</section>
+
+<!-- ============ SIGNATURE EXPERIENCES ============ -->
+<section class="section--dark signature">
+  <div class="section__head reveal">
+    <p class="eyebrow eyebrow--center eyebrow--light">Signature Experiences</p>
+    <h2 class="h-display center light">Something for every soul.</h2>
+  </div>
+  <div class="rail">
+    <article class="xcard reveal"><img src="assets/polo-single.jpg" alt=""><div class="xcard__body"><h3>Polo Experiences</h3><p>Chukkas, lessons and patron play on three professional fields.</p></div></article>
+    <article class="xcard reveal"><img src="assets/statue-2.jpg" alt=""><div class="xcard__body"><h3>Riding Academy</h3><p>Beginner to advanced tuition in our arena sand school.</p></div></article>
+    <article class="xcard reveal"><img src="assets/grounds-path.jpg" alt=""><div class="xcard__body"><h3>Horse Trekking</h3><p>Trails across 3,000 hectares to the Kangimi Dam.</p></div></article>
+    <article class="xcard reveal"><img src="assets/polo-action-4.jpg" alt=""><div class="xcard__body"><h3>Bike Polo</h3><p>Team-building and corporate polo with a twist.</p></div></article>
+    <article class="xcard reveal"><img src="assets/grounds-garden.jpg" alt=""><div class="xcard__body"><h3>Quad Bike Safari</h3><p>Guided off-road adventure through the reserve.</p></div></article>
+    <article class="xcard reveal"><img src="assets/pool.jpg" alt=""><div class="xcard__body"><h3>Pool &amp; Tennis</h3><p>Two all-weather courts and a poolside lounge.</p></div></article>
+  </div>
+  <div class="rail__nav">
+    <button onclick="railScroll(this,-1)" aria-label="Previous">‹</button>
+    <button onclick="railScroll(this,1)" aria-label="Next">›</button>
+  </div>
+</section>
+
+<!-- ============ STAY PREVIEW ============ -->
+<section class="section" id="stay">
+  <div class="feature reveal">
+    <div class="feature__media"><img src="assets/huts-dusk.jpg" alt="Pony Huts at dusk" class="tilt" /></div>
+    <div class="feature__text">
+      <p class="eyebrow">The Stay</p>
+      <h3 class="h-mid">Stylish comfort in the<br />heart of Africa.</h3>
+      <p>From traditional safari-style Pony Huts to two- and three-bedroom Luxury Villas with
+        polo-field views — 56 resort stays set among landscaped gardens.</p>
+      <ul class="ticks">
+        <li>Circular, stone-built Pony Huts</li>
+        <li>Family villas with master ensuites</li>
+        <li>Complimentary continental breakfast</li>
+      </ul>
+      <a href="stay.html" class="btn btn--dark">Explore Accommodation <span class="btn-arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IMPACT BAND ============ -->
+<section class="section--brand">
+  <div class="section__head reveal">
+    <p class="eyebrow eyebrow--center eyebrow--light">Social Responsibility</p>
+    <h2 class="h-display center light">Luxury, with purpose.</h2>
+  </div>
+  <div class="metrics wrap reveal">
+    <div class="metric"><span class="metric__num" data-count="2006" data-plain="1">0</span><span class="metric__label">UNICEF partner since</span></div>
+    <div class="metric"><span class="metric__num" data-count="18" data-suffix="+">0</span><span class="metric__label">Years of giving</span></div>
+    <div class="metric"><span class="metric__num" data-count="500" data-suffix="K+">0</span><span class="metric__label">Lives touched</span></div>
+    <div class="metric"><span class="metric__num" data-count="3">0</span><span class="metric__label">Flagship causes</span></div>
+  </div>
+  <div style="text-align:center" class="reveal"><a href="impact.html" class="btn btn--ghost">See Our Impact <span class="btn-arrow">→</span></a></div>
+</section>
+
+<!-- ============ GALLERY PREVIEW ============ -->
+<section class="section section--cream">
+  <div class="section__head reveal">
+    <p class="eyebrow eyebrow--center">The Gallery</p>
+    <h2 class="h-display center">Moments from the estate.</h2>
+  </div>
+  <div class="ggrid reveal">
+    <figure class="gitem" data-cat="polo"><img src="assets/polo-action-1.jpg" alt="Polo match"></figure>
+    <figure class="gitem g-tall" data-cat="horses"><img src="assets/statue-1.jpg" alt="Horse sculpture"></figure>
+    <figure class="gitem" data-cat="stay"><img src="assets/huts-dusk.jpg" alt="Pony huts"></figure>
+    <figure class="gitem" data-cat="polo"><img src="assets/polo-action-2.jpg" alt="Polo crowd"></figure>
+    <figure class="gitem g-wide" data-cat="polo"><img src="assets/polo-action-5.jpg" alt="Polo pack"></figure>
+    <figure class="gitem" data-cat="people"><img src="assets/polo-player-1.jpg" alt="Polo player"></figure>
+    <figure class="gitem" data-cat="estate"><img src="assets/grounds-garden.jpg" alt="Estate garden"></figure>
+    <figure class="gitem" data-cat="people"><img src="assets/polo-lady.jpg" alt="Lady polo player"></figure>
+  </div>
+  <div style="text-align:center;margin-top:2.4rem" class="reveal"><a href="gallery.html" class="btn btn--dark">View Full Gallery <span class="btn-arrow">→</span></a></div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section--dark quotes">
+  <div class="quotes__rail">
+    <blockquote class="quote is-active"><p>“The most complete polo destination in Africa — world-class horses, unforgettable hospitality and a setting you simply won't find anywhere else.”</p><cite>International Patron · England</cite></blockquote>
+    <blockquote class="quote"><p>“We hosted our corporate retreat here and our team still talks about it. Polo by day, fine dining by night, magic throughout.”</p><cite>Group Executive · Lagos</cite></blockquote>
+    <blockquote class="quote"><p>“A wedding under the flame trees with horses on the field — pure cinema. Fifth Chukker gave us the day of our lives.”</p><cite>Newlyweds · Abuja</cite></blockquote>
+  </div>
+  <div class="quotes__dots"></div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="ctaband">
+  <img src="assets/polo-golden.jpg" alt="" class="ctaband__bg" />
+  <div class="ctaband__veil"></div>
+  <div class="reveal">
+    <p class="eyebrow eyebrow--center eyebrow--light">Begin Your Story</p>
+    <h2 class="h-display light">Where the world<br />meets Africa.</h2>
+    <p>Reserve your stay, plan an event, or join us on the field. Our concierge is ready.</p>
+    <div class="hero__actions" style="justify-content:center">
+      <a href="stay.html" class="btn btn--brand">Book Your Stay</a>
+      <a href="contact.html" class="btn btn--ghost">Contact Concierge</a>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer"></footer>
+</body>
+</html>
