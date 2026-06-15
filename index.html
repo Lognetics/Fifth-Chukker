@@ -47,8 +47,8 @@
 <!-- ============ BOOKING BAR ============ -->
 <section class="booking" id="booking">
   <form class="booking__bar" data-fake>
-    <div class="booking__field"><label>Arrival</label><input type="date" /></div>
-    <div class="booking__field"><label>Departure</label><input type="date" /></div>
+    <div class="booking__field"><label>Arrival</label><input type="text" placeholder="Select date" onfocus="this.type='date'" onblur="if(!this.value)this.type='text'" /></div>
+    <div class="booking__field"><label>Departure</label><input type="text" placeholder="Select date" onfocus="this.type='date'" onblur="if(!this.value)this.type='text'" /></div>
     <div class="booking__field"><label>Guests</label>
       <select><option>1 Guest</option><option selected>2 Guests</option><option>3 Guests</option><option>4 Guests</option><option>5+ Guests</option></select></div>
     <div class="booking__field"><label>Accommodation</label>
